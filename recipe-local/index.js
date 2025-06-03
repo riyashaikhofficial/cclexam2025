@@ -4,10 +4,10 @@ const bodyParser = require('body-parser');
 const app = express();
 
 // Basic configuration check
-if (!process.env.PORT || !process.env.AUTH) {
-    console.error('Missing required environment variables PORT, AUTH');
-    //process.exit(1);
-}
+// if (!process.env.PORT || !process.env.AUTH) {
+//     console.error('Missing required environment variables PORT, AUTH');
+//     //process.exit(1);
+// }
 
 // Set up EJS as view engine
 app.set('view engine', 'ejs');
